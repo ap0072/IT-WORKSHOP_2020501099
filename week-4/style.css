@@ -1,12 +1,48 @@
 #float1 {
     float: right;
     margin-right: 20px;
+    margin: 20px 10px;
 }
 
 .same{
     target="_self";
 }
 
-.bc{
-    background-image: coral;
+body {
+    
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    backface-visibility: inherit;
 }
+
+html {
+    border-top: lightskyblue;
+    border-color: lime;
+    border-width: thick;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 10px;
+    cursor: pointer;
+    font-family: cursive;
+  }
+  
+  .button1 {background-color: #008CBA;} /* Blue */
+
+  h1{
+      font-family: monospace;
+      text-underline-position: below;
+  }
+
+  #text{
+      float: left;
+      margin: 50px 20px;
+  }
