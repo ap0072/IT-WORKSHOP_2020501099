@@ -1,0 +1,12 @@
+#float1 {
+    float: right;
+    margin-right: 20px;
+}
+
+.same{
+    target="_self";
+}
+
+.bc{
+    background-image: coral;
+}
