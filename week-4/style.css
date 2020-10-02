@@ -1,3 +1,4 @@
+
 #float1 {
     float: right;
     margin-right: 20px;
@@ -7,6 +8,8 @@
 .same{
     target="_self";
 }
+
+
 
 body {
     
@@ -25,17 +28,20 @@ html {
 .button {
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 10px 10px;
+   background-color: blue; 
     cursor: pointer;
-    font-family: cursive;
+    margin:auto;
+    margin-left: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
   }
   
-  .button1 {background-color: #008CBA;} /* Blue */
+  .button1 {background-color: blue;} /* Blue */
 
   h1{
       font-family: monospace;
@@ -44,5 +50,65 @@ html {
 
   #text{
       float: left;
-      margin: 50px 20px;
+      margin-left:50px;
+      margin-top: 10px;
   }
+
+  
+
+    .loader {
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid #3498db;
+        width: 120px;
+        height: 120px;
+        -webkit-animation: spin 2s linear infinite; /* Safari */
+        animation: spin 2s linear infinite;
+      }
+      
+     
+    
+    ul{
+        list-style-type:none;
+        margin: 0;
+        padding:0;
+        overflow: hidden;
+    }
+
+    li {
+        float: left;
+
+    }
+    li a{
+        display: block;
+        padding: 8px;
+        background-color:yellow;
+    }
+
+    .tit{
+        color:red;
+        font-size: 18px;
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+      }
+
+      .con{
+        padding: 10px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+      }
+
+   
+
+      .con:hover{
+          opacity: 0.7;
+      }
