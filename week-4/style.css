@@ -10,7 +10,8 @@
     color: black;
 }
 .bc{
-    background-color: black;
+    text-decoration:underline;
+    color: black;    
 }
 .same1{
     target="_blank";
